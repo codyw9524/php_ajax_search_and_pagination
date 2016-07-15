@@ -1,0 +1,31 @@
+form{
+	display: inline-block;
+	width: 100%;
+}
+form.date{
+	width: 60%;
+}
+#page_links{
+	float: right;
+}
+	ul#page_links{
+		display: block;
+		list-style: none;
+	}
+	ul#page_links li{
+		display: inline;
+	}
+	ul#page_links li:after{
+		content: "|";
+		padding: 5px;
+		color: black;
+	}
+	ul#page_links li:last-child:after{
+		content: none;
+	}
+	#page_links form{
+		display: inline;
+	}
+input{
+	max-width: 210px;
+}
